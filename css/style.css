@@ -165,9 +165,8 @@ body {
 }
 /* card-img */
 .card-img {
-  width: 100%;
   height: 100%;
-  background:linear-gradient(to bottom, #CCA4E3, #F1F3F4);
+  background:linear-gradient(to right, #CCA4E3, #fff);
   background-size: cover;
 }
 
