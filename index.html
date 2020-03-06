@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+  <title>Resume</title>
+
+  <!-- Bootstrap -->
+  <link href="./css/animate.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/flaticon.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+  <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+  <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <!-- 手机端导航钮 -->
+  <!-- <div class="mobile-menu"> -->
+  <div class="mobile-menu hidden-md hidden-lg">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-top">
+            <li><a href="#about">about <span class="sr-only">(current)</span></a></li>
+            <li><a href="#resume">resume</a></li>
+            <li><a href="#work1">work1</a></li>
+            <li><a href="#work2">work2</a></li>
+            <li><a href="#work3">work3</a></li>
+            <li><a href="#work4">work4</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+  </div>
+
+  <div class="card-box">
+    <div class="container" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
+      <div class="row card-info">
+        <div class="col-md-3 author-info">
+          <div class="auther-img">
+            <img src="./images/me-small.jpg" alt="">
+          </div>
+          <div class="author">
+            <h3>王 洁</h3>
+            <div>
+              <div class="connect-info">
+                <span>QQ</span>
+                <strong>1445254124</strong>
+              </div>
+              <div class="connect-info">
+                <span>Phone</span>
+                <strong>15172662069</strong>
+              </div>
+            </div>
+          </div>
+          <div><a href="javascript:;">待续...</a>
+          </div>
+
+        </div>
+
+        <div class="col-md-1 link-info hidden-xs hidden-sm">
+          <ul class="main-menu">
+            <li class="active"><a href="#home"></a></li>
+            <li><a href="#about"><i class="flaticon-social"></i>About</a></li>
+            <li><a href="#resume"><i class="flaticon-curriculum"></i>Resume</a></li>
+            <li><a href="#work1"><i class="flaticon-layers-1"></i>work1</a></li>
+            <li><a href="#work2"><i class="flaticon-tools"></i>work2</a></li>
+            <li><a href="#work3"><i class="flaticon-blog"></i>work3</a></li>
+            <li><a href="#work4"><i class="flaticon-send-mail"></i>work4</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-8 item-info">
+          <!-- card item -->
+          <div class="card-img card-item active hidden-sm hidden-xs" id="home">
+          </div>
+          <!-- card item -->
+          <div class="card-about card-item" id="about">
+            <div class="card-inner">
+              <h4 class="title">About Me</h4>
+              <div class="text">
+                自我学习能力还是比较强的，对做的事很认真。专业知识扎实，有积极的工作态度，能够独立工作，又有团队精神。具有良好的文化素质，在未来的工作中，我将以充沛的精力，努力工作，稳定地进步自己的工作能力。我正在寻找一个更好的发展平台，希望能够充分发挥自己的能力，共同努力成就一番事业。
+              </div>
+              <div class="info-list">
+                <div class="row">
+                  <div class="col-md-6">
+                    <ul class="list-style">
+                      <li><strong>姓名:</strong>王 洁</li>
+                      <li><strong>出生年月:</strong>19920525</li>
+                      <li><strong>联系电话:</strong>15172662069</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <ul class="list-style">
+                      <li><strong>学历:</strong> 本科</li>
+                      <li><strong>地址:</strong>上海松江泗泾</li>
+                      <li><strong>邮箱:</strong> 1445254124@qq.com</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <h4 class="title">Skills</h4>
+              <div class="info-list">
+                <ul class="list-style">
+                  <li>1. 熟悉linux/windows开发环境,掌握基本的html、css、javascript</li>
+                  <li>2. 具有良好的代码书写习惯，可使用jquery、less、bootstrap</li>
+                  <li>3. 常用工具typora，sublime，vscode，webstorm等</li>
+                  <li>4. 可使用git及github管理本地代码，熟悉webpack前端工具</li>
+                  <li>5. 英语水平：英语4级</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- card item -->
+          <div class="card-resume card-item" id="resume">
+            <div class="card-inner">
+              <h4 class="title">Resume</h4>
+              <div class="row clearfix">
+                <div class="timeline-column col-md-6 col-sm-12 col-xs-12">
+                  <div class="inner">
+                    <div class="col-header">
+                      <div class="icon-box">
+                        <div class="icon"><span class="flaticon-book"></span></div>
+                      </div>
+                      <h2>教育经历</h2>
+                    </div>
+                    <div class="timeline-block">
+                      <div class="inner-box">
+                        <h4>初中</h4>
+                        <div class="date"><span>2004-2007</span></div>
+                        <div class="text">卧龙1中</div>
+                      </div>
+                    </div>
+                    <div class="timeline-block">
+                      <div class="inner-box">
+                        <h4>高中</h4>
+                        <div class="date"><span>2008-2010</span></div>
+                        <div class="text">湖北襄樊3中</div>
+                      </div>
+                    </div>
+                    <div class="timeline-block">
+                      <div class="inner-box">
+                        <h4>大学</h4>
+                        <div class="date"><span>2010-2014</span></div>
+                        <div class="text">兰州理工大学</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="timeline-column col-md-6 col-sm-12 col-xs-12">
+                  <div class="inner">
+                    <div class="col-header">
+                      <div class="icon-box">
+                        <div class="icon"><span class="flaticon-case"></span></div>
+                      </div>
+                      <h2>工作经历</h2>
+                    </div>
+                    <div class="timeline-block">
+                      <div class="inner-box">
+                        <h4>荆门</h4>
+                        <div class="date"><span>2014-2017</span></div>
+                        <div class="text">荆门普安有限公司</div>
+                      </div>
+                    </div>
+                    <div class="timeline-block">
+                      <div class="inner-box">
+                        <h4>杭州</h4>
+                        <div class="date"><span>2017-2019</span></div>
+                        <div class="text">万好万家有限公司</div>
+                      </div>
+                    </div>
+                    <div class="timeline-block">
+                      <div class="inner-box">
+                        <h4>上海</h4>
+                        <div class="date"><span>2019-</span></div>
+                        <div class="text">自由职业</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- card item -->
+          <div class="card-work1 card-item" id="work1">
+            <div class="card-inner">
+              <h4 class="title">work1</h4>
+              <div>目前只有练习做的项目</div>
+              <ul class="info-list">
+                <li><a href="https://underscoresl.github.io/myFirstProject/">PC端的练习项目</a></li>
+                <li><a href="https://underscoresl.github.io/wjs/">bootstrap的练习项目</a></li>
+                <li><a href="https://underscoresl.github.io/jd/">移动端的练习项目</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="card-work2 card-item" id="work2">
+            <div class="card-inner">
+              <h4 class="title">work2</h4>
+            </div>
+          </div>
+          <div class="card-work3 card-item" id="work3">
+            <div class="card-inner">
+              <h4 class="title">work3</h4>
+            </div>
+          </div>
+          <div class="card-work4 card-item" id="work4">
+            <div class="card-inner">
+              <h4 class="title">work4</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+  <script src="./js/jquery-1.12.4.js"></script>
+  <script src="./js/jquery.nicescroll.min.js"></script>
+  <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
